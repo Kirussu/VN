@@ -1,66 +1,72 @@
-html {
-	padding: 0;
-	margin: 0;
-	/* border: 2px solid blue; */
+html, body {
+  padding: 0;
+  margin: 0;
+  /* border: 2px solid red; */
+  width: 100vw;
+  height: 100vh;
 }
 
 body {
-	padding: 0;
-	margin: 0;
-	height: 100vh;
-	width: 100vw;
-	/* border: 2px solid green; */
 	background-image: url("img/backgrounds/cafe_background2.jpg");
-	background-size: auto;
+	background-size: cover;
 	background-attachment: fixed;
-	background-position: top;
+	background-position: center;
 	background-repeat: no-repeat;
 }
 
 header {
 	  width: 100%;
-	  /* border: 2px solid red; */
-		font-size: 4rem;
+		font-size: 2rem;
 		font-family: helvetica, sans-serif;
 		font-weight: bold;
 		font-variant: small-caps;
 		text-align: center;
 		color: white;
 		text-shadow: 5px 5px 5px #1E1E1E;
+}
 
+#image {
+  box-sizing: border-box;
+  text-align: center;
+  overflow: hidden;
+  /* border: 2px solid purple; */
+  margin: 0;
+  padding: 0;
 }
 
 .sally {
-		/* width: 500px; */
-
-
-
+  max-width: 100%;
+  max-height: 100%;
+  display: block; /* remove extra space below image */
+  /* border: 2px solid green; */
+  height: 20rem;
+  width: 20rem;
+  margin: right auto;
+  padding: 0;
 }
 
 .dialogue {
-	  position: absolute;
-		bottom: 0px;
+	  /* position: absolute; */
+		/* bottom: 0px; */
 	  border: 2px solid black;
+    margin-top: 0px;
 		background-image: url("img/text_background.jpg");
 		background-size: cover;
-		text-align: center;
+		text-align: left;
 
 }
 
 p {
-	position: static;
-	box-sizing: border-box;
+  margin: 1rem;
 	color: white;
 	font-family: sans-serif;
-	font-size: 3rem;
-	text-align: center;
-	text-indent: 40px;
+	font-size: .85rem;
+	text-indent: 25px;
 	text-shadow: 3px 3px 3px #03214B;
-
 }
 
 a {
-	font-size: 3rem;
+  font-size: 1rem;
 	font-family: sans-serif;
 	text-decoration: none;
 	text-align: center;
@@ -69,21 +75,16 @@ a {
 }
 
 nav {
-	/* border: 2px solid red; */
-	margin-bottom: 50px;
+  /* border: 10px solid purple; */
 	display: flex;
 	flex-flow: column nowrap;
 	align-items: center;
 }
 
-#image {
-	text-align: left;
-}
-
 .buttons {
 	text-align: center;
-	margin: 5px;
-	padding: 30px;
+	margin: .25rem;
+	padding: 1rem;
 	border: 2px solid black;
 	background-color: #131313;
 }
