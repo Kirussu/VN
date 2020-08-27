@@ -1,0 +1,24 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  background-position: bottom;
+}
+
+header {
+  font-size: 3rem;
+}
+.sally {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  height: 35rem;
+  width: 35rem;
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+.buttons {
+  font-size: 1.25rem;
+}
